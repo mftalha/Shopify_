@@ -115,7 +115,7 @@
     "a74272bc-0e1f-4b19-a1c0-eccf15e6fc41": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{",
+        "custom_liquid": "{% if page.title == 'Liquid' %}\n   The page title is Liqu\n{% else %}\n\n{% endif %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
