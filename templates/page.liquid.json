@@ -10,7 +10,7 @@
     "3fe61481-b1d6-406a-8420-d288c95bf611": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{{page.title}}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
