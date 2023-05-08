@@ -1,0 +1,26 @@
+<h1>{{ section.settings.liquid-checkbox }}
+</h1>
+
+{% schema %}
+  {
+    "name": "Liquid Reference Checkbox",
+    "settings": [
+      {
+        "id": "liquid-checkbox",
+        "type": "checkbox",
+        "label": "A checkbox in liquid"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Liquid Reference Checkbox",
+        "category": "Reference"
+      }
+    ]
+  }
+{% endschema %}
+
+{% comment %}
+bu sayfa sayesinde => Template kısmından add section dediğimde => Liquid Reference Checkbox adı ile => 
+bir checkbox alanı getirecek bize ve tıklamalrın kayıt edilmesi sağlanacak.
+{% endcomment %}
