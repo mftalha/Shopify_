@@ -155,7 +155,7 @@
       "type": "liquid-ref-auto-checkbox",
       "settings": {
         "liquid-checkbox": true,
-        "liquid-number": 5
+        "liquid-number": 9977
       }
     }
   },
