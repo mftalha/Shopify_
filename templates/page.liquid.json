@@ -106,7 +106,7 @@
     "50149e51-fde3-4c09-8a3d-67b1cc1ad4b9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% unless page.title == 'Liquid' %}\n The page title is still Liqu\n{% endunless %}",
+        "custom_liquid": "{% unless page.title == 'Liquid' %}\n The page title is still Liquid\n{% endunless %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
