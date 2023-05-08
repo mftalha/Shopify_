@@ -1,5 +1,9 @@
-<h1>{{ section.settings.liquid-checkbox }}
-</h1>
+<h1>{{ section.settings.liquid-checkbox }}</h1>
+
+{% if section.settings.liquid-checkbox == true %}
+  <h2>Checkbox is Checked</h2>
+{% endif %}
+
 
 {% schema %}
   {
