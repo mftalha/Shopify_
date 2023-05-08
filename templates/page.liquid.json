@@ -154,7 +154,8 @@
     "f1494783-4965-4477-9cac-95d00e1e0f2a": {
       "type": "liquid-ref-auto-checkbox",
       "settings": {
-        "liquid-checkbox": true
+        "liquid-checkbox": true,
+        "liquid-number": 50
       }
     }
   },
