@@ -11,7 +11,11 @@
 {% comment %}
 schema içinde birde number alanı eklendi.
 {% endcomment %}
-{{ section.settings.liquid-number }}
+
+{% if section.settings.liquid-number != '' %}
+  {{ section.settings.liquid-number }}
+{% endif %}
+
 
 {% schema %}
   {
