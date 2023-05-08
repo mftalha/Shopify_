@@ -15,10 +15,34 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "79a88f6f-ce12-40d2-908c-517b9a098131": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18909311631640__79a88f6f-ce12-40d2-908c-517b9a098131-168354491218e76f65-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Object",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18909311631640__79a88f6f-ce12-40d2-908c-517b9a098131-168354491218e76f65-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "3fe61481-b1d6-406a-8420-d288c95bf611"
+    "3fe61481-b1d6-406a-8420-d288c95bf611",
+    "79a88f6f-ce12-40d2-908c-517b9a098131"
   ]
 }
