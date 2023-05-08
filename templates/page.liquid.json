@@ -144,6 +144,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "76c15f17-94cb-4d6b-bc3f-1756f55e71af": {
+      "type": "liquid-ref-auto",
+      "settings": {
+        "liquid-ref-auto": "Test 1234"
+      }
     }
   },
   "order": [
@@ -157,6 +163,7 @@
     "50149e51-fde3-4c09-8a3d-67b1cc1ad4b9",
     "a74272bc-0e1f-4b19-a1c0-eccf15e6fc41",
     "53cac83e-a1d4-444d-bc92-cb4b9bfbfcc6",
-    "142fd5c4-f8a5-4daa-9adb-4c0285b6c6d0"
+    "142fd5c4-f8a5-4daa-9adb-4c0285b6c6d0",
+    "76c15f17-94cb-4d6b-bc3f-1756f55e71af"
   ]
 }
