@@ -1,0 +1,28 @@
+<h1>{{ section.settings.liquid-ref-auto }}</h1>
+
+{% schema %}
+  {
+    "name": "Liquid Reference Auto",
+    "settings": [
+      {
+        "id": "liquid-ref-auto",
+        "type": "text",
+        "label": "A Reference for Shopify Liquid"
+      }
+    ],
+    "templates": [
+      "index", "page", "product"
+    ],
+    "presets": [
+      {
+        "name": "Liquid Reference Auto",
+        "category": "Reference"
+      }
+    ]
+  }
+{% endschema %}
+
+{% comment %}
+bu sayfa sayesinde => Template kısmından add section dediğimde => Liquid Reference Auto adı ile => 
+bir text alanı getirecek bize ve yazdığımız text'in sayfada görülmesini sağlıyacak.
+{% endcomment %}
