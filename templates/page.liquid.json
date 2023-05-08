@@ -135,6 +135,15 @@
       "settings": {
         "liquid-ref": ""
       }
+    },
+    "142fd5c4-f8a5-4daa-9adb-4c0285b6c6d0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ 'test github' }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -147,6 +156,7 @@
     "86e8844a-1289-4a06-adca-4eee9d5b1db6",
     "50149e51-fde3-4c09-8a3d-67b1cc1ad4b9",
     "a74272bc-0e1f-4b19-a1c0-eccf15e6fc41",
-    "53cac83e-a1d4-444d-bc92-cb4b9bfbfcc6"
+    "53cac83e-a1d4-444d-bc92-cb4b9bfbfcc6",
+    "142fd5c4-f8a5-4daa-9adb-4c0285b6c6d0"
   ]
 }
