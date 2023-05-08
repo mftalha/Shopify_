@@ -97,7 +97,7 @@
     "8bda75f2-1c32-4c43-bca9-28ba4bdf4360": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{{ 'hello W' }}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
