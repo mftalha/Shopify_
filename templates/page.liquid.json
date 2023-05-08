@@ -7,15 +7,6 @@
         "padding_bottom": 28
       }
     },
-    "3fe61481-b1d6-406a-8420-d288c95bf611": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{{page.title}}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "79a88f6f-ce12-40d2-908c-517b9a098131": {
       "type": "rich-text",
       "blocks": {
@@ -35,6 +26,15 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "3fe61481-b1d6-406a-8420-d288c95bf611": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{page.title}}",
+        "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -61,12 +61,56 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "86e8844a-1289-4a06-adca-4eee9d5b1db6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'Liquid' %}\n Yes, the title is Liquid\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d1a3d0d0-fdfd-4e4c-8c2d-0342c1b5f873": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18909311631640__d1a3d0d0-fdfd-4e4c-8c2d-0342c1b5f873-168354491218e76f65-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Filter",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18909311631640__d1a3d0d0-fdfd-4e4c-8c2d-0342c1b5f873-168354491218e76f65-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8bda75f2-1c32-4c43-bca9-28ba4bdf4360": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "3fe61481-b1d6-406a-8420-d288c95bf611",
     "79a88f6f-ce12-40d2-908c-517b9a098131",
-    "8fb844b7-5d49-445f-a562-81672dc40ee5"
+    "3fe61481-b1d6-406a-8420-d288c95bf611",
+    "8fb844b7-5d49-445f-a562-81672dc40ee5",
+    "86e8844a-1289-4a06-adca-4eee9d5b1db6",
+    "d1a3d0d0-fdfd-4e4c-8c2d-0342c1b5f873",
+    "8bda75f2-1c32-4c43-bca9-28ba4bdf4360"
   ]
 }
