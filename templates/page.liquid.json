@@ -155,7 +155,7 @@
       "type": "liquid-ref-auto-checkbox",
       "settings": {
         "liquid-checkbox": true,
-        "liquid-number": 50
+        "liquid-number": 5
       }
     }
   },
