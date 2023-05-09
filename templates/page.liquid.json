@@ -183,8 +183,17 @@
     },
     "bb8e84d2-c188-44c6-9026-74cf95d33366": {
       "type": "blog-posts",
+      "custom_css": [
+
+      ],
       "settings": {
         "liquid-range": 3
+      }
+    },
+    "385f6c11-8e78-4cb7-bc54-a6243a2217da": {
+      "type": "blog-posts",
+      "settings": {
+        "liquid-range": 9
       }
     }
   },
@@ -203,6 +212,7 @@
     "76c15f17-94cb-4d6b-bc3f-1756f55e71af",
     "f1494783-4965-4477-9cac-95d00e1e0f2a",
     "7680f349-021e-4ca1-bf82-5a1b06825eca",
-    "bb8e84d2-c188-44c6-9026-74cf95d33366"
+    "bb8e84d2-c188-44c6-9026-74cf95d33366",
+    "385f6c11-8e78-4cb7-bc54-a6243a2217da"
   ]
 }
